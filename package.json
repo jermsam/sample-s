@@ -1,0 +1,64 @@
+{
+  "name": "sample-s",
+  "description": "a more complete social-media-like app",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "jermsam",
+    "email": "jitpomi@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "engines": {
+    "node": "^10.0.0",
+    "yarn": ">= 0.18.0"
+  },
+  "scripts": {
+    "start": "nodemon -r dotenv/config src/",
+    "debug": "DEBUG=* npm run watch",
+    "lint": "eslint src/. test/.",
+    "fixcode": "eslint src/. test/. --fix",
+    "mocha": "mocha -r dotenv/config test/ --recursive --exit",
+    "test": "npm run lint && npm run mocha",
+    "prepush": "npm run test"
+  },
+  "dependencies": {
+    "@feathersjs/authentication": "^2.1.9",
+    "@feathersjs/authentication-jwt": "^2.0.3",
+    "@feathersjs/authentication-local": "^1.2.3",
+    "@feathersjs/configuration": "^2.0.2",
+    "@feathersjs/errors": "^3.3.2",
+    "@feathersjs/express": "^1.2.5",
+    "@feathersjs/feathers": "^3.2.1",
+    "@feathersjs/socketio": "^3.2.4",
+    "aws-sdk": "^2.309.0",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "dauria": "^2.0.0",
+    "dotenv": "^6.0.0",
+    "feathers-blob": "^2.0.1",
+    "feathers-sequelize": "^3.1.2",
+    "helmet": "^3.13.0",
+    "multer": "^1.3.1",
+    "nodemon": "^1.18.4",
+    "pg": "^7.4.3",
+    "s3-blob-store": "^3.2.0",
+    "sequelize": "^4.38.0",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
