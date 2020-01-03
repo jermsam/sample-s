@@ -1,6 +1,6 @@
 # sample-s
 
-> a rest/socket-io server for a sample social media
+> a rest/socket-io api for a sample social media
 
 ## About
 
