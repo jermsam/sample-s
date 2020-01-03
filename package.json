@@ -51,7 +51,7 @@
     "nodemon": "^1.18.4",
     "pg": "^7.4.3",
     "s3-blob-store": "^3.2.0",
-    "sequelize": "^4.38.0",
+    "sequelize": "^5.15.1",
     "serve-favicon": "^2.5.0",
     "winston": "^3.0.0"
   },
