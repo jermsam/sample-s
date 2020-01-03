@@ -5,7 +5,7 @@
 ## About
 
 This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
-Stores user data; credentials, posts, comments and replies in a postgres database (m)
+Stores user data; credentials, posts, comments and replies in a postgres database. Used by [sample-u](https://github.com/jermsam/sample-u) frontend web app
 The main 3rd party libraries are:
 1. [s3-blob-store](https://github.com/jb55/s3-blob-store) for AWS-S3 Media Storage 
 2. [sequelize] (https://github.com/sequelize/sequelize) for Relation Database Mapping with postgres
