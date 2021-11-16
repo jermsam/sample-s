@@ -39,7 +39,7 @@
     "@feathersjs/express": "^1.2.5",
     "@feathersjs/feathers": "^3.2.1",
     "@feathersjs/socketio": "^3.2.4",
-    "aws-sdk": "^2.309.0",
+    "aws-sdk": "^2.814.0",
     "compression": "^1.7.3",
     "cors": "^2.8.4",
     "dauria": "^2.0.0",
